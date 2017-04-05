@@ -11,7 +11,7 @@ A very simple app in flask to demonstrate flask and sqlalchemy
   `screen -dr db`, where `db` is the session name
   
 ### use requirements.txt
-- everytime you add a new python package, update requiements.txt and install it on your server
+- everytime you add a new python package, update `requiements.txt` and install it on your server
   `pip install -r requirements.txt`
   
 ### bind your app to `0.0.0.0`

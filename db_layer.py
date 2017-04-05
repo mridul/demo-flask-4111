@@ -2,7 +2,7 @@ import os
 
 from sqlalchemy import *
 
-connection_string = 'postgres://postgres@localhost/mridul'
+connection_string = os.getenv('connection_string')
 
 engine = create_engine(connection_string)
 

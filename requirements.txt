@@ -1,0 +1,5 @@
+flask
+honcho
+jinja2
+psycopg2
+sqlalchemy

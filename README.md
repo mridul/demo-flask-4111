@@ -1,20 +1,21 @@
-# demo-flask-4111
-demo flask app for COMS 4111
+# Flask + SQLAlchemy demo for COMS 4111
+A very simple app in flask to demonstrate flask and sqlalchemy
 
 ## useful snippets
 ### run your server under a screen session
 - start a screen session
-  `screen -S db`
+  `screen -S db`, where `db` is the session name
 - detach 
   `Ctrl-a d`
 - reconnect to a screen session
-  `screen -dr db`
+  `screen -dr db`, where `db` is the session name
   
 ### use requirements.txt
 - everytime you add a new python package, update requiements.txt and install it on your server
   `pip install -r requirements.txt`
   
 ### bind your app to `0.0.0.0`
+- connect to your screen session
 - `export FLASK_APP=application.py`
 - have all the environment variables set in a `.env` file
 - `honcho run flask run --host=0.0.0.0`

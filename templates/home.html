@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+  <ul class=entries>
+  {% for name in names %}
+    <li>{{ name }}
+  {% else %}
+    <li>empty set
+  {% endfor %}
+  </ul>
+
+
+
+{% endblock %}
+{% block footer %}
+no rights reserved
+{% endblock %}

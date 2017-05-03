@@ -1,5 +1,6 @@
 # Flask + SQLAlchemy demo for COMS 4111
 A very simple app in flask to demonstrate flask and sqlalchemy
+Built as a demonstration during a lecture given for Prof. Alexandros Biliris's Introduction to Databases class at Columbia University.
 
 ## useful snippets
 ### run your server under a screen session
